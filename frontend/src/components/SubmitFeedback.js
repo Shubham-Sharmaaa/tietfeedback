@@ -9,7 +9,7 @@ function SubmitFeedback({ onFeedbackPosted }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('https://tiet-feedback-api.vercel.app/feedback', {
+      await axios.post('https://tietfeedbaack-api.vercel.app/feedback', {
         studentName,
         teacherName,
         feedback,
