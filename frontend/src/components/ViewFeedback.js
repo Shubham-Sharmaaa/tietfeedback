@@ -6,7 +6,7 @@ function ViewFeedback() {
 
   const fetchFeedback = async () => {
     try {
-      const response = await axios.get('https://tiet-feedback-api.vercel.app/feedback');
+      const response = await axios.get('https://tietfeedbaack-api.vercel.app/feedback');
       setFeedbacks(response.data);
     } catch (error) {
       console.error('Error fetching feedback:', error);
