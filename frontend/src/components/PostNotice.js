@@ -13,7 +13,7 @@ function PostNotice() {
     setSuccess('');
 
     try {
-      const response = await axios.post('https://tiet-feedback-api.vercel.app/notices', {
+      const response = await axios.post('https://tietfeedbaack-api.vercel.app/notices', {
         title,
         content,
       });
